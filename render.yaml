@@ -4,14 +4,15 @@ services:
   - type: web
     name: ruangkita-demo
     runtime: node
+    branch: main
     plan: starter
-    buildCommand: npm ci --no-audit --no-fund && npm run build
+    buildCommand: npm ci --include=dev --no-audit --no-fund && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
     numInstances: 1
     envVars:
       - key: NODE_VERSION
-        value: 24
+        value: "24"
       - key: NODE_ENV
         value: production
       - key: DEMO_ACCESS

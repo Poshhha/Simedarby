@@ -3,7 +3,7 @@
 Validated in the cloud workspace on 22 October 2026 with Node.js 24.19.0.
 
 - Frozen installation: `npm ci` succeeded using `package-lock.json`.
-- Production build: `npm run build` passed TypeScript and Vite compilation.
+- Production build: `npm run build` passed TypeScript and Vite compilation. The Render build command was also exercised in a temporary copy with `NODE_ENV=production`: `npm ci --include=dev --no-audit --no-fund` followed by `npm run build` passed. The Blueprint YAML parsed successfully and its environment values, persistent disk, health path, branch and single-instance settings were checked locally; the Render service has not been provisioned.
 - Backend: `npm test` passed all 10 integration tests; no skipped tests. These exercise the full journey, authorization and privacy, eligibility, capacity and waitlist promotion, stable integer-sen estimates, exclusive simulated schedule conflicts, proposal changes and sponsorship, reward idempotency/reversal, circles/interest, and database/session persistence across restart.
 - Browser: `npm run test:e2e` passed both tests after the final modal and contrast updates. Three independent cookie sessions completed proposal creation, review, separate simulated venue confirmation, resident registration, organizer verification/completion, and point-ledger checks. Joining gave zero points; verified first badminton attendance gave 30, and event completion gave the organizer 30. Reloads retained registrations and points. No browser page errors were recorded.
 - Mobile: the browser suite passed navigation, township filtering, Lyra source metadata and absence of horizontal overflow at 390 × 844.

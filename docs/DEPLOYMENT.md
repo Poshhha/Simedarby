@@ -11,7 +11,7 @@ Use a host that supports a long-running Node service and a persistent writable v
 | Setting | Value |
 | --- | --- |
 | Runtime | Node.js 24 or later |
-| Build command | `npm ci && npm run build` |
+| Build command | `npm ci --include=dev --no-audit --no-fund && npm run build` |
 | Start command | `npm start` |
 | Persistent mount | `/var/data` |
 | `DATABASE_PATH` | `/var/data/ruangkita.sqlite` |
@@ -26,14 +26,16 @@ Use a **single application instance** with this local SQLite file. Do not indepe
 
 `DEMO_ACCESS=true` deliberately permits the public identity selector, including its administrator profile. Production mode refuses startup without that acknowledgement. This does not turn the demonstration into production authentication. Keep the “demo” labels and never collect real resident data.
 
-## Render-style deployment
+## Render Blueprint deployment
 
-1. Make the repository available to your hosting account and create a Node web service using its project root.
-2. Set Node 24+, the build command and the start command above.
-3. Attach a persistent disk mounted at `/var/data` and set `DATABASE_PATH` accordingly.
-4. Add the environment settings above through the host's secure settings interface. No Supabase or payment secret is required for this implementation.
-5. Enable the host's HTTPS address and health check. Deploy one instance.
-6. Run the functional smoke checks below before sharing its URL.
+1. Sign into Render and choose **New → Blueprint**.
+2. Connect GitHub and select `Poshhha/Simedarby`. If the repository is private, grant Render access to that repository.
+3. Use the `main` branch and the root `render.yaml`. The application is at the repository root; no subdirectory is needed.
+4. Review the proposed `ruangkita-demo` Node 24 web service, Starter plan and 1 GB persistent disk. Confirm Render's current charges before creating the service.
+5. Create the Blueprint. Its file supplies the build/start commands, `/api/health` check, persistent database path and explicit demo-access settings. Render supplies `PORT` and the HTTPS service address. No Supabase or payment secret is required.
+6. After deployment succeeds, open the actual Render HTTPS address and run the functional smoke checks below before sharing it.
+
+The build explicitly includes development dependencies because TypeScript and Vite are required to compile the frontend even with `NODE_ENV=production`. Runtime uses the same Node service for the frontend and API; it is not a static-site deployment.
 
 For Railway, configure the same service commands and attach a volume at `/var/data`. For Fly.io, use a Node 24 image with the built application, attach a volume at `/var/data`, route the internal service port to the app's `PORT`, and terminate external traffic through HTTPS. Consult the host's current documentation for its service/volume configuration; do not use an ephemeral preview service as permanent demo storage.
 
