@@ -80,4 +80,7 @@ docker run --rm -p 3001:3001 -e DEMO_ACCESS=true \
   -v ruangkita-data:/app/.data ruangkita-demo
 ```
 
-For an HTTPS reverse proxy, also provide `SECURE_COOKIES=true` and the actual `APP_ORIGIN`. The application was validated directly with Node in this workspace; the container recipe requires Docker-host validation before deployment.
+For an HTTPS reverse proxy, also provide `SECURE_COOKIES=true` and the actual `APP_ORIGIN`. The application was validated directly with Node and in the Docker container, including a persisted SQLite write across container restart. Run the deployment smoke check against your actual host before sharing its public address.
+
+
+If your build host uses a corporate or platform proxy, forward its standard `HTTP_PROXY`, `HTTPS_PROXY` and `NO_PROXY` build arguments. The Dockerfile accepts an optional `extra_ca` BuildKit secret for an existing trusted CA certificate. Ensure the proxy hostname resolves inside BuildKit; an explicit `--add-host` mapping to that existing proxy may be necessary. Do not disable TLS or checksum verification. Neither proxy credentials nor the temporary CA mount are embedded in the image.

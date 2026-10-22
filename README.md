@@ -103,7 +103,7 @@ Demo identities, events, attendance, schedules, points and engagement metrics ar
 
 The application uses a single persistent Node/SQLite server. It is not a Supabase implementation and cannot be hosted as a static-only website. Production identity, real venue integrations, live payments, email delivery and reward redemption remain outside this prototype.
 
-No public deployment or GitHub push is implied by these files. Follow [deployment instructions](docs/DEPLOYMENT.md), verify the resulting public site, and supply its real URL for submission. The submission deadline in the project brief is **23 October 2026, 11:59 PM Malaysia time**.
+Source is available in [Poshhha/Simedarby](https://github.com/Poshhha/Simedarby). A public hosting deployment has not been created. Follow [deployment instructions](docs/DEPLOYMENT.md), verify the resulting public site, and supply its real URL for submission. The submission deadline in the project brief is **23 October 2026, 11:59 PM Malaysia time**.
 
 See [the validation record](docs/VALIDATION.md) for executed checks and remaining publication limits. Township selection is stored locally; participation data is stored on the shared server. User proposals currently select from the documented catalog; external venue entry and facility editing are not implemented.
 
