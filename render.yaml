@@ -1,0 +1,26 @@
+# Review Render pricing before creating this service: persistent storage requires
+# a paid service. This file does not provision or publish anything by itself.
+services:
+  - type: web
+    name: ruangkita-demo
+    runtime: node
+    plan: starter
+    buildCommand: npm ci --no-audit --no-fund && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    numInstances: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: NODE_ENV
+        value: production
+      - key: DEMO_ACCESS
+        value: "true"
+      - key: SECURE_COOKIES
+        value: "true"
+      - key: DATABASE_PATH
+        value: /var/data/ruangkita.sqlite
+    disk:
+      name: ruangkita-data
+      mountPath: /var/data
+      sizeGB: 1
