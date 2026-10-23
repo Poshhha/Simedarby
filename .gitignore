@@ -7,4 +7,5 @@ dist/
 .data/
 test-results/
 playwright-report/
+artifacts/
 *.log

@@ -84,26 +84,26 @@ h3 {
   letter-spacing: -0.04em;
 }
 h1 {
-  font-size: 34px;
+  font-size: 35px;
   line-height: 1.25;
   font-weight: 700;
   margin-bottom: 12px;
 }
 h2 {
-  font-size: 23px;
+  font-size: 24px;
   line-height: 1.35;
   margin-bottom: 12px;
 }
 h3 {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.4;
 }
 p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.75;
 }
 small {
-  font-size: 11px;
+  font-size: 12px;
 }
 svg {
   flex-shrink: 0;
@@ -128,7 +128,7 @@ textarea {
   padding: 11px 13px;
   border: 1px solid #dce1e4;
   background: white;
-  font-size: 12px;
+  font-size: 13px;
   min-height: 42px;
 }
 textarea {
@@ -198,7 +198,7 @@ button.btn:hover {
 }
 .brand {
   font-weight: 800;
-  font-size: 21px;
+  font-size: 22px;
   letter-spacing: -1px;
   line-height: 1;
 }
@@ -219,7 +219,7 @@ button.btn:hover {
   overflow-y: auto;
 }
 .nav-heading {
-  font-size: 8.5px;
+  font-size: 9.5px;
   font-weight: 700;
   letter-spacing: 1.6px;
   color: #9ba2ab;
@@ -231,12 +231,12 @@ button.btn:hover {
 .nav-item {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   color: #697784;
-  font-size: 11.5px;
+  font-size: 12.5px;
   font-weight: 500;
   min-height: 43px;
-  padding: 12px 15px;
+  padding: 12px 13px;
   margin: 4px 0;
   border-radius: 7px;
 }
@@ -250,7 +250,7 @@ button.btn:hover {
   font-weight: 600;
 }
 .nav-new {
-  font-size: 6px;
+  font-size: 7px;
   letter-spacing: 0.7px;
   color: var(--green);
   background: #edf6f0;
@@ -273,7 +273,7 @@ button.btn:hover {
   color: #3b6a57;
   position: relative;
   z-index: 1;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.6;
 }
 .points-mark strong {
@@ -281,7 +281,7 @@ button.btn:hover {
 }
 .sidebar-points p {
   color: #7d9185;
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.8;
   margin: 12px 0;
 }
@@ -290,7 +290,7 @@ button.btn:hover {
   justify-content: space-between;
   align-items: center;
   color: #3d6c55;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   position: relative;
   z-index: 1;
@@ -314,7 +314,7 @@ button.btn:hover {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  font-size: 9px;
+  font-size: 10px;
   color: #8b949d;
   margin-bottom: 10px;
 }
@@ -335,12 +335,12 @@ button.btn:hover {
 }
 .profile-mini strong {
   display: block;
-  font-size: 10px;
+  font-size: 11px;
 }
 .profile-mini small {
   display: block;
   color: #8c949d;
-  font-size: 8px;
+  font-size: 9px;
   margin-top: 4px;
   text-transform: capitalize;
 }
@@ -352,7 +352,7 @@ button.btn:hover {
   color: #68784b;
   display: grid;
   place-items: center;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   flex-shrink: 0;
   border: 3px solid white;
@@ -397,7 +397,7 @@ button.btn:hover {
   color: #85909a;
 }
 .topbar-title {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -415,11 +415,11 @@ button.btn:hover {
   background: transparent;
   padding: 4px 0;
   width: 100%;
-  font-size: 10px;
+  font-size: 11px;
   min-height: 30px;
 }
 .global-search kbd {
-  font-size: 11px;
+  font-size: 12px;
   color: #aeb5ba;
   border: 1px solid #eee;
   border-radius: 3px;
@@ -465,7 +465,7 @@ button.btn:hover {
   z-index: 50;
 }
 .notification-menu > strong {
-  font-size: 13px;
+  font-size: 14px;
 }
 .notification-menu > div {
   border-top: 1px solid var(--line);
@@ -473,10 +473,10 @@ button.btn:hover {
   margin-top: 12px;
 }
 .notification-menu b {
-  font-size: 11px;
+  font-size: 12px;
 }
 .notification-menu p {
-  font-size: 11px;
+  font-size: 12px;
   margin: 7px 0;
 }
 .main-content {
@@ -491,7 +491,7 @@ button.btn:hover {
   gap: 20px;
   padding: 25px 0 24px;
   min-height: 76px;
-  font-size: 10px;
+  font-size: 11px;
   color: #8a929a;
 }
 .context-bar > span {
@@ -518,7 +518,7 @@ button.btn:hover {
   border: 0;
   background: transparent;
   padding: 3px 2px;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   max-width: 220px;
 }
@@ -559,7 +559,7 @@ button.btn:hover {
   gap: 8px;
   align-items: center;
   color: #d9e3d4;
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 1.8px;
   font-weight: 600;
   margin-bottom: 18px;
@@ -571,7 +571,7 @@ button.btn:hover {
   border-radius: 50%;
 }
 .hero h1 {
-  font-size: 39px;
+  font-size: 40px;
   line-height: 1.25;
   letter-spacing: -1.7px;
   margin-bottom: 15px;
@@ -584,7 +584,7 @@ button.btn:hover {
   font-weight: 400;
 }
 .hero p {
-  font-size: 11px;
+  font-size: 12px;
   color: #d0ddd5;
   line-height: 1.9;
   margin-bottom: 23px;
@@ -601,7 +601,7 @@ button.btn:hover {
   gap: 10px;
   min-height: 40px;
   padding: 11px 17px;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.4;
   font-weight: 600;
   border-radius: 7px;
@@ -643,7 +643,7 @@ button.btn:hover {
   color: #7c8892;
 }
 .btn.small {
-  font-size: 10px;
+  font-size: 11px;
   min-height: 32px;
   padding: 7px 11px;
 }
@@ -654,7 +654,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
   color: #edf1e8;
 }
@@ -672,12 +672,12 @@ button.btn:hover {
   align-items: center;
   gap: 11px;
   box-shadow: 0 4px 20px #182e2c12;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
 }
 .hero-caption small {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   font-weight: 400;
   color: #849088;
   margin-top: 4px;
@@ -697,7 +697,7 @@ button.btn:hover {
   right: 16px;
   color: #f4f5ec;
   letter-spacing: 0.3px;
-  font-size: 6.5px;
+  font-size: 7.5px;
   text-shadow: 0 1px 3px #000;
 }
 .welcome-strip {
@@ -714,7 +714,7 @@ button.btn:hover {
   width: 30px;
 }
 .welcome-strip p {
-  font-size: 10px;
+  font-size: 11px;
   color: #8c9399;
   margin: 0;
   flex: 1;
@@ -725,7 +725,7 @@ button.btn:hover {
   margin-right: 6px;
 }
 .welcome-strip a {
-  font-size: 10px;
+  font-size: 11px;
   display: flex;
   align-items: center;
   gap: 9px;
@@ -745,7 +745,7 @@ button.btn:hover {
 }
 .eyebrow {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 1.6px;
   color: #ab8968;
   font-weight: 700;
@@ -753,10 +753,10 @@ button.btn:hover {
 }
 .section-heading h2 {
   margin-bottom: 8px;
-  font-size: 22px;
+  font-size: 23px;
 }
 .section-heading .muted {
-  font-size: 10px;
+  font-size: 11px;
   margin: 0;
 }
 .muted {
@@ -767,7 +767,7 @@ button.btn:hover {
   align-items: center;
   gap: 8px;
   color: #596d71;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -785,7 +785,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 9px;
+  font-size: 10px;
   background: transparent;
   border: 1px solid #e5e8e9;
   color: #849098;
@@ -851,7 +851,7 @@ button.btn:hover {
   position: absolute;
   bottom: 5px;
   right: 8px;
-  font-size: 6px;
+  font-size: 7px;
   background: #ffffffaa;
   color: #4d6157;
   padding: 2px 5px;
@@ -861,7 +861,7 @@ button.btn:hover {
   position: absolute;
   top: 13px;
   left: 13px;
-  font-size: 7px;
+  font-size: 8px;
   font-weight: 600;
   letter-spacing: 0.1px;
   padding: 5px 8px;
@@ -875,7 +875,7 @@ button.btn:hover {
   left: 12px;
   background: #152c34a6;
   color: white;
-  font-size: 6.5px;
+  font-size: 7.5px;
   letter-spacing: 0.3px;
   padding: 4px 7px;
   border-radius: 3px;
@@ -887,7 +887,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 8px;
+  font-size: 9px;
   color: #8d989b;
   line-height: 1.6;
   margin-bottom: 9px;
@@ -906,7 +906,7 @@ button.btn:hover {
   background: #79a48d;
 }
 .card-title {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: -0.3px;
   line-height: 1.5;
@@ -918,7 +918,7 @@ button.btn:hover {
   color: var(--orange);
 }
 .card-location {
-  font-size: 9px;
+  font-size: 10px;
   color: #8c969c;
   margin-bottom: 15px;
 }
@@ -926,7 +926,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 8px;
+  font-size: 9px;
   color: #70828b;
   margin-bottom: 17px;
   gap: 4px;
@@ -940,7 +940,7 @@ button.btn:hover {
   color: #9aa7ad;
 }
 .capacity {
-  font-size: 8px;
+  font-size: 9px;
   color: #859299;
 }
 .capacity > div:first-child {
@@ -951,7 +951,7 @@ button.btn:hover {
 .spaces {
   margin-left: auto;
   color: #9a865f;
-  font-size: 7.5px;
+  font-size: 8.5px;
 }
 .capacity-track {
   width: 100%;
@@ -978,7 +978,7 @@ button.btn:hover {
 }
 .free-cost,
 .estimate-cost {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: #4b896d;
 }
@@ -987,7 +987,7 @@ button.btn:hover {
 }
 .card-bottom small {
   display: block;
-  font-size: 7px;
+  font-size: 8px;
   color: #a0aaa9;
   font-weight: 400;
   margin-top: 5px;
@@ -1053,7 +1053,7 @@ button.btn:hover {
   z-index: -1;
 }
 .dataset-note {
-  font-size: 8px;
+  font-size: 9px;
   color: #919ca2;
   line-height: 1.7;
   margin: 12px 0 0;
@@ -1065,7 +1065,7 @@ button.btn:hover {
   margin-top: 35px;
 }
 .spaces-section .section-heading h2 {
-  font-size: 21px;
+  font-size: 22px;
 }
 .space-row {
   display: flex;
@@ -1093,7 +1093,7 @@ button.btn:hover {
   color: #92a180;
 }
 .space-row h3 {
-  font-size: 11px;
+  font-size: 12px;
   margin-bottom: 6px;
   font-weight: 600;
 }
@@ -1101,12 +1101,12 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 3px;
-  font-size: 8px;
+  font-size: 9px;
   margin-bottom: 5px;
   color: #84938c;
 }
 .space-row > div > span {
-  font-size: 7px;
+  font-size: 8px;
   color: #9da6a4;
 }
 .space-row > div > span b {
@@ -1140,24 +1140,24 @@ button.btn:hover {
   color: #8b9279;
 }
 .organize-banner .eyebrow {
-  font-size: 7px;
+  font-size: 8px;
   letter-spacing: 1px;
   max-width: 150px;
 }
 .organize-banner h2 {
-  font-size: 28px;
+  font-size: 29px;
   font-weight: 500;
   line-height: 1.15;
   margin: 15px 0 10px;
 }
 .organize-banner p {
-  font-size: 9px;
+  font-size: 10px;
   color: #929182;
   line-height: 1.8;
   margin-bottom: 20px;
 }
 .organize-banner .btn {
-  font-size: 9px;
+  font-size: 10px;
   position: relative;
   z-index: 2;
   min-height: 35px;
@@ -1180,25 +1180,25 @@ button.btn:hover {
   gap: 24px;
 }
 .how-it-works h2 {
-  font-size: 18px;
+  font-size: 19px;
   margin: 0;
 }
 .how-it-works .eyebrow {
-  font-size: 6px;
+  font-size: 7px;
 }
 .how-it-works > div > span:not(.eyebrow) {
   color: #b9c2b6;
-  font-size: 14px;
+  font-size: 15px;
   display: block;
   margin-bottom: 8px;
 }
 .how-it-works h3 {
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0;
   margin-bottom: 6px;
 }
 .how-it-works p {
-  font-size: 8px;
+  font-size: 9px;
   color: #9da5a8;
   line-height: 1.8;
   margin-bottom: 0;
@@ -1206,7 +1206,7 @@ button.btn:hover {
 .footer {
   padding: 21px 38px 24px;
   border-top: 1px solid var(--line);
-  font-size: 7px;
+  font-size: 8px;
   color: #9ba5a9;
   display: flex;
   align-items: center;
@@ -1249,7 +1249,7 @@ button.btn:hover {
   border: 1px solid #7b9b83;
   border-radius: 10px;
   padding: 15px 24px;
-  font-size: 12px;
+  font-size: 13px;
   z-index: 100;
   box-shadow: 0 5px 25px #17302130;
   max-width: calc(100% - 30px);
@@ -1285,10 +1285,10 @@ button.btn:hover {
   margin: 7px 0 28px;
 }
 .page-heading h1 {
-  font-size: 30px;
+  font-size: 31px;
 }
 .page-heading p {
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 0;
 }
 .panel {
@@ -1301,7 +1301,7 @@ button.btn:hover {
   padding: 26px;
 }
 .panel h2 {
-  font-size: 20px;
+  font-size: 21px;
 }
 .filter-panel {
   display: flex;
@@ -1327,7 +1327,7 @@ button.btn:hover {
 }
 .filter-panel select,
 .filter-panel input[type="date"] {
-  font-size: 10px;
+  font-size: 11px;
   min-height: 35px;
   padding: 8px 10px;
   background: #f8faf9;
@@ -1340,7 +1340,7 @@ button.btn:hover {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  font-size: 11px;
+  font-size: 12px;
   margin-bottom: 22px;
 }
 .results-toolbar > div {
@@ -1349,13 +1349,13 @@ button.btn:hover {
   gap: 20px;
 }
 .results-toolbar .muted {
-  font-size: 10px;
+  font-size: 11px;
 }
 .checkbox-label {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.7;
 }
 .view-switch {
@@ -1389,18 +1389,18 @@ button.btn:hover {
   color: #9bb29c;
 }
 .empty-state h1 {
-  font-size: 27px;
+  font-size: 28px;
 }
 .empty-state h2 {
-  font-size: 23px;
+  font-size: 24px;
   color: #334c56;
 }
 .empty-state h3 {
   color: #53655e;
-  font-size: 17px;
+  font-size: 18px;
 }
 .empty-state p {
-  font-size: 12px;
+  font-size: 13px;
 }
 .empty-state .btn {
   margin-top: 12px;
@@ -1417,7 +1417,7 @@ button.btn:hover {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 9px;
+  font-size: 10px;
   padding: 6px 9px;
   border-radius: 5px;
   color: #957449;
@@ -1445,7 +1445,7 @@ button.btn:hover {
   border-radius: 8px;
   background: #edf4ef;
   color: #668176;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.8;
   margin: 18px 0;
 }
@@ -1453,12 +1453,12 @@ button.btn:hover {
   margin-top: 2px;
 }
 .notice strong {
-  font-size: 11px;
+  font-size: 12px;
   color: #536d61;
 }
 .notice p {
   margin: 3px 0 0;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.8;
 }
 .notice.warning {
@@ -1473,13 +1473,13 @@ button.btn:hover {
   color: #b24c3b;
   padding: 12px;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .source-notice {
   margin-bottom: 24px;
 }
 .verified-label {
-  font-size: 10px;
+  font-size: 11px;
   color: #608870;
   display: flex;
   gap: 7px;
@@ -1501,7 +1501,7 @@ button.btn:hover {
   margin-top: 10px;
 }
 .facility-description {
-  font-size: 10px;
+  font-size: 11px;
   color: #8d979c;
   margin-bottom: 17px;
   display: -webkit-box;
@@ -1517,7 +1517,7 @@ button.btn:hover {
   margin-bottom: 17px;
 }
 .facility-tags .badge {
-  font-size: 7px;
+  font-size: 8px;
 }
 .facility-source {
   display: flex;
@@ -1528,7 +1528,7 @@ button.btn:hover {
   gap: 8px;
 }
 .facility-source > span {
-  font-size: 8px;
+  font-size: 9px;
   color: #6f8b79;
   display: flex;
   gap: 5px;
@@ -1537,7 +1537,7 @@ button.btn:hover {
 }
 .facility-source small {
   width: 100%;
-  font-size: 7px;
+  font-size: 8px;
   color: #a5aeaa;
   margin-left: 19px;
 }
@@ -1545,7 +1545,7 @@ button.btn:hover {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 12px;
   color: #82918f;
   margin-bottom: 21px;
 }
@@ -1585,10 +1585,10 @@ button.btn:hover {
 }
 .detail-title h1 {
   margin-top: 15px;
-  font-size: 33px;
+  font-size: 34px;
 }
 .detail-title .muted {
-  font-size: 11px;
+  font-size: 12px;
 }
 .detail-facts {
   display: grid;
@@ -1609,11 +1609,11 @@ button.btn:hover {
 }
 .detail-facts strong {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
 }
 .detail-facts small {
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   color: #8b999a;
   margin-top: 4px;
   line-height: 1.7;
@@ -1622,17 +1622,17 @@ button.btn:hover {
   margin-top: 29px;
 }
 .detail-section h2 {
-  font-size: 20px;
+  font-size: 21px;
 }
 .detail-section > p {
-  font-size: 12px;
+  font-size: 13px;
   color: #7b8c8f;
 }
 .prose {
   white-space: pre-line;
   color: #7b8a91;
   line-height: 1.9;
-  font-size: 12px;
+  font-size: 13px;
 }
 .info-pills {
   display: flex;
@@ -1647,7 +1647,7 @@ button.btn:hover {
   gap: 7px;
   background: #edf2ed;
   color: #758674;
-  font-size: 9px;
+  font-size: 10px;
   padding: 8px 11px;
   border-radius: 5px;
 }
@@ -1660,16 +1660,16 @@ button.btn:hover {
   gap: 20px;
   padding: 13px 0;
   border-bottom: 1px solid var(--line);
-  font-size: 11px;
+  font-size: 12px;
 }
 .funding-summary > div small {
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.9;
   display: inline-block;
   max-width: 250px;
 }
 .funding-summary > p {
-  font-size: 9px;
+  font-size: 10px;
   margin: 15px 0 0;
 }
 .registration-panel {
@@ -1679,25 +1679,25 @@ button.btn:hover {
   top: 22px;
 }
 .registration-panel > h2 {
-  font-size: 29px;
+  font-size: 30px;
   margin: 15px 0 22px;
 }
 .registration-panel h2 small {
   display: block;
   color: #96a299;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 400;
   letter-spacing: 0;
   margin-top: 8px;
 }
 .registration-panel .capacity {
-  font-size: 10px;
+  font-size: 11px;
 }
 .registration-panel .capacity-track {
   margin-top: 12px;
 }
 .spots-text {
-  font-size: 9px;
+  font-size: 10px;
   color: #9ca690;
   margin: 12px 0 20px;
 }
@@ -1713,20 +1713,20 @@ button.btn:hover {
 }
 .registration-reward strong {
   display: block;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 600;
   color: #6f8773;
   line-height: 1.6;
 }
 .registration-reward small {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   color: #99a39c;
   line-height: 1.9;
   margin-top: 6px;
 }
 .registration-panel .dataset-note {
-  font-size: 8px;
+  font-size: 9px;
   margin-top: 15px;
 }
 .registration-confirmed {
@@ -1738,14 +1738,14 @@ button.btn:hover {
   background: #eff5ee;
   border-radius: 8px;
   color: #537d61;
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 15px;
 }
 .registration-confirmed > span {
-  font-size: 9px;
+  font-size: 10px;
 }
 .registration-confirmed > small {
-  font-size: 8px;
+  font-size: 9px;
 }
 .modal-backdrop {
   position: fixed;
@@ -1771,10 +1771,10 @@ button.btn:hover {
   box-shadow: 0 20px 80px #10231b44;
 }
 .modal h2 {
-  font-size: 26px;
+  font-size: 27px;
 }
 .modal p {
-  font-size: 12px;
+  font-size: 13px;
   color: #87918c;
 }
 .modal-close {
@@ -1786,7 +1786,7 @@ button.btn:hover {
   align-items: flex-start;
   margin: 20px 0;
   color: #6b7a71;
-  font-size: 11px;
+  font-size: 12px;
 }
 .modal .eligibility input {
   margin-top: 2px;
@@ -1802,7 +1802,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 17px;
+  font-size: 18px;
   color: #758b7b;
 }
 .agenda-row {
@@ -1819,21 +1819,21 @@ button.btn:hover {
   flex: 1;
 }
 .agenda-row strong {
-  font-size: 14px;
+  font-size: 15px;
 }
 .agenda-row p {
-  font-size: 10px;
+  font-size: 11px;
   color: #94a09a;
   margin: 6px 0 0;
 }
 .agenda-time {
-  font-size: 11px;
+  font-size: 12px;
   color: #6c8277;
   min-width: 70px;
 }
 .agenda-time small {
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   color: #acb5af;
   margin-top: 6px;
 }
@@ -1855,13 +1855,13 @@ button.btn:hover {
   margin: 0 0 20px;
 }
 .facility-info dt {
-  font-size: 9px;
+  font-size: 10px;
   color: #a2aca6;
   margin-top: 18px;
   margin-bottom: 5px;
 }
 .facility-info dd {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.75;
   margin: 0;
   color: #5f7568;
@@ -1876,7 +1876,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 12px;
   color: #6c8474;
 }
 .amenities svg {
@@ -1922,7 +1922,7 @@ button.btn:hover {
   position: absolute;
   top: 18px;
   left: 20px;
-  font-size: 45px;
+  font-size: 46px;
   color: #ffffffaa;
   font-family: Georgia, serif;
 }
@@ -1934,30 +1934,30 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 9px;
+  font-size: 10px;
 }
 .township-visual > small {
   position: absolute;
   bottom: 7px;
   right: 10px;
-  font-size: 6px;
+  font-size: 7px;
   color: #dce6d8;
 }
 .township-card .card-body {
   padding: 24px;
 }
 .township-card h2 {
-  font-size: 24px;
+  font-size: 25px;
 }
 .township-card p {
-  font-size: 11px;
+  font-size: 12px;
   color: #879a8c;
   min-height: 55px;
 }
 .township-stats {
   display: flex;
   gap: 22px;
-  font-size: 9px;
+  font-size: 10px;
   color: #7a957e;
   margin: 20px 0;
   flex-wrap: wrap;
@@ -2016,25 +2016,25 @@ button.btn:hover {
   border-radius: 10px;
 }
 .heart-icon {
-  font-size: 35px;
+  font-size: 36px;
   line-height: 1;
 }
 .circle-card h2 {
-  font-size: 20px;
+  font-size: 21px;
 }
 .circle-card > p {
-  font-size: 11px;
+  font-size: 12px;
   color: #8a9b91;
   min-height: 58px;
 }
 .circle-card > .badge {
-  font-size: 8px;
+  font-size: 9px;
 }
 .circle-meta {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 8px;
+  font-size: 9px;
   color: #a1aaa1;
   margin: 22px 0;
   flex-wrap: wrap;
@@ -2043,7 +2043,7 @@ button.btn:hover {
   margin-left: auto;
 }
 .circle-next {
-  font-size: 9px;
+  font-size: 10px;
   color: #77917a;
   display: flex;
   align-items: center;
@@ -2065,11 +2065,11 @@ button.btn:hover {
   padding: 35px 0;
 }
 .login-story h1 {
-  font-size: 38px;
+  font-size: 39px;
   font-weight: 600;
 }
 .login-story > p {
-  font-size: 12px;
+  font-size: 13px;
   max-width: 355px;
   color: #8b9a91;
 }
@@ -2092,7 +2092,7 @@ button.btn:hover {
   bottom: 26px;
   z-index: 1;
   color: #e8f0e1;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
 }
@@ -2101,18 +2101,18 @@ button.btn:hover {
   align-self: start;
 }
 .login-panel h2 {
-  font-size: 31px;
+  font-size: 32px;
   margin-top: 8px;
 }
 .login-panel > .muted {
-  font-size: 11px;
+  font-size: 12px;
 }
 .login-panel .notice {
   padding: 14px;
   margin: 22px 0;
 }
 .login-panel .notice p {
-  font-size: 9px;
+  font-size: 10px;
 }
 .demo-accounts {
   display: grid;
@@ -2139,12 +2139,12 @@ button.btn:hover {
 }
 .demo-account strong {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
 }
 .demo-account small {
   display: block;
   color: #97a392;
-  font-size: 8px;
+  font-size: 9px;
   line-height: 1.8;
   margin-top: 5px;
 }
@@ -2154,7 +2154,7 @@ button.btn:hover {
 .account-avatar {
   width: 38px;
   height: 38px;
-  font-size: 13px;
+  font-size: 14px;
   box-shadow: none;
 }
 .account-1 {
@@ -2170,7 +2170,7 @@ button.btn:hover {
   color: #8e789d;
 }
 .login-panel .dataset-note {
-  font-size: 8px;
+  font-size: 9px;
   margin-bottom: 15px;
 }
 .profile-welcome {
@@ -2181,19 +2181,19 @@ button.btn:hover {
   margin: 10px 0 30px;
 }
 .profile-welcome h1 {
-  font-size: 34px;
+  font-size: 35px;
 }
 .profile-welcome p {
   display: flex;
   align-items: center;
   gap: 7px;
   color: #95a08c;
-  font-size: 11px;
+  font-size: 12px;
   margin: 15px 0 0;
 }
 .profile-welcome p .badge {
   margin-left: 10px;
-  font-size: 8px;
+  font-size: 9px;
 }
 .stats-grid {
   display: grid;
@@ -2236,18 +2236,18 @@ button.btn:hover {
   color: #a191af;
 }
 .stat p {
-  font-size: 9px;
+  font-size: 10px;
   margin-bottom: 12px;
   color: #8a9c90;
 }
 .stat strong {
-  font-size: 29px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1;
 }
 .stat small {
   display: block;
-  font-size: 7px;
+  font-size: 8px;
   color: #a5b0a6;
   line-height: 1.8;
   margin-top: 8px;
@@ -2261,7 +2261,7 @@ button.btn:hover {
 .tab {
   background: transparent;
   color: #9ca79f;
-  font-size: 11px;
+  font-size: 12px;
   border-radius: 0;
   padding: 13px 0;
   position: relative;
@@ -2281,7 +2281,7 @@ button.btn:hover {
   align-items: center;
 }
 .profile-columns .section-heading h2 {
-  font-size: 18px;
+  font-size: 19px;
 }
 .proposal-mini {
   display: flex;
@@ -2290,19 +2290,19 @@ button.btn:hover {
   gap: 10px;
   padding: 17px 0;
   border-bottom: 1px solid var(--line);
-  font-size: 11px;
+  font-size: 12px;
 }
 .proposal-mini > span:first-child {
   flex: 1;
 }
 .proposal-mini small {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   color: #a3aea3;
   margin-top: 5px;
 }
 .proposal-mini > .badge {
-  font-size: 7px;
+  font-size: 8px;
 }
 .profile-edit {
   margin: 25px 0;
@@ -2329,23 +2329,23 @@ button.btn:hover {
   flex-shrink: 0;
 }
 .date-tile strong {
-  font-size: 21px;
+  font-size: 22px;
 }
 .date-tile span {
-  font-size: 8px;
+  font-size: 9px;
   text-transform: uppercase;
 }
 .registration-title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
 }
 .registration-row p {
-  font-size: 10px;
+  font-size: 11px;
   color: #8c9e90;
   margin: 5px 0;
 }
 .registration-row small {
-  font-size: 8px;
+  font-size: 9px;
   color: #a5b0a4;
 }
 .rewards-hero {
@@ -2369,12 +2369,12 @@ button.btn:hover {
   box-shadow: 0 0 0 8px #e7eddf;
 }
 .rewards-hero h2 {
-  font-size: 33px;
+  font-size: 34px;
   color: #5e7d4c;
   margin-bottom: 10px;
 }
 .rewards-hero p {
-  font-size: 10px;
+  font-size: 11px;
   color: #92a284;
   margin: 0;
 }
@@ -2384,10 +2384,10 @@ button.btn:hover {
   gap: 25px;
 }
 .rewards-layout h2 {
-  font-size: 20px;
+  font-size: 21px;
 }
 .rewards-layout .muted {
-  font-size: 10px;
+  font-size: 11px;
 }
 .ledger-row {
   display: flex;
@@ -2409,15 +2409,15 @@ button.btn:hover {
   flex: 1;
 }
 .ledger-row strong {
-  font-size: 11px;
+  font-size: 12px;
 }
 .ledger-row p {
-  font-size: 8px;
+  font-size: 9px;
   color: #a2afa1;
   margin: 5px 0 0;
 }
 .ledger-row > b {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
 }
 .positive {
@@ -2429,7 +2429,7 @@ button.btn:hover {
 .points-policy {
   display: grid;
   grid-template-columns: 1fr auto;
-  font-size: 10px;
+  font-size: 11px;
   gap: 18px;
   color: #879b7c;
   margin: 27px 0 35px;
@@ -2454,11 +2454,11 @@ button.btn:hover {
 }
 .badge-card strong {
   display: block;
-  font-size: 10px;
+  font-size: 11px;
 }
 .badge-card small {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   margin-top: 5px;
 }
 .about-page {
@@ -2466,10 +2466,10 @@ button.btn:hover {
   margin: 20px auto;
 }
 .about-page h1 {
-  font-size: 40px;
+  font-size: 41px;
 }
 .about-page .lead {
-  font-size: 14px;
+  font-size: 15px;
   color: #87998b;
   margin-bottom: 30px;
 }
@@ -2487,10 +2487,10 @@ button.btn:hover {
   margin-bottom: 15px;
 }
 .about-columns h3 {
-  font-size: 18px;
+  font-size: 19px;
 }
 .about-columns p {
-  font-size: 11px;
+  font-size: 12px;
   color: #8b9f8e;
 }
 .boot-state {
@@ -2499,7 +2499,7 @@ button.btn:hover {
 }
 .boot-state .brand {
   display: inline-block;
-  font-size: 35px;
+  font-size: 36px;
   margin-bottom: 30px;
 }
 .boot-state p {
@@ -2517,7 +2517,7 @@ button.btn:hover {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: #62796b;
 }
@@ -2529,7 +2529,7 @@ button.btn:hover {
 }
 .field small {
   color: #9eab9c;
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.8;
   font-weight: 400;
 }
@@ -2541,10 +2541,10 @@ button.btn:hover {
   margin-bottom: 28px;
 }
 .wizard-heading h1 {
-  font-size: 31px;
+  font-size: 32px;
 }
 .wizard-heading .muted {
-  font-size: 12px;
+  font-size: 13px;
 }
 .stepper {
   display: flex;
@@ -2557,7 +2557,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 10px;
+  font-size: 11px;
   color: #a0ad9e;
   position: relative;
   background: transparent;
@@ -2575,7 +2575,7 @@ button.btn:hover {
   background: #f0f3ed;
   border: 1px solid #e3e9df;
   border-radius: 50%;
-  font-size: 11px;
+  font-size: 12px;
   flex-shrink: 0;
 }
 .step.active {
@@ -2591,10 +2591,10 @@ button.btn:hover {
   padding: 28px;
 }
 .wizard .panel h2 {
-  font-size: 23px;
+  font-size: 24px;
 }
 .wizard .panel > p {
-  font-size: 11px;
+  font-size: 12px;
 }
 .wizard-footer {
   display: flex;
@@ -2620,7 +2620,7 @@ button.btn:hover {
   border-radius: 8px;
   padding: 17px;
   cursor: pointer;
-  font-size: 11px;
+  font-size: 12px;
 }
 .funding-option.selected {
   border-color: #7d9b6c;
@@ -2630,12 +2630,12 @@ button.btn:hover {
   accent-color: #6f8a5f;
 }
 .funding-option strong {
-  font-size: 11px;
+  font-size: 12px;
   display: block;
 }
 .funding-option small {
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   color: #a3af9b;
   line-height: 1.7;
   margin-top: 6px;
@@ -2653,13 +2653,13 @@ button.btn:hover {
 }
 .review-grid > div > span {
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   color: #9eab95;
   margin-bottom: 5px;
 }
 .review-grid strong,
 .review-grid p {
-  font-size: 11px;
+  font-size: 12px;
 }
 .review-grid p {
   color: #718668;
@@ -2682,18 +2682,18 @@ button.btn:hover {
   gap: 15px;
 }
 .manage-card-heading h2 {
-  font-size: 21px;
+  font-size: 22px;
 }
 .manage-card-heading .badge {
-  font-size: 8px;
+  font-size: 9px;
 }
 .registration-number {
-  font-size: 27px;
+  font-size: 28px;
   color: #738966;
 }
 .registration-number small {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   color: #a9b39e;
 }
 .manage-meta {
@@ -2701,7 +2701,7 @@ button.btn:hover {
   align-items: center;
   gap: 15px;
   flex-wrap: wrap;
-  font-size: 10px;
+  font-size: 11px;
   color: #8e9f84;
   margin: 13px 0 18px;
 }
@@ -2722,11 +2722,11 @@ button.btn:hover {
   border-collapse: collapse;
   text-align: left;
   min-width: 430px;
-  font-size: 10px;
+  font-size: 11px;
 }
 .data-table th {
   color: #a3af9c;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 500;
   padding: 12px;
   border-bottom: 1px solid #e6ece0;
@@ -2740,7 +2740,7 @@ button.btn:hover {
 }
 .table-subtitle {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   color: #a8b49d;
   margin-top: 3px;
 }
@@ -2749,7 +2749,7 @@ button.btn:hover {
   margin: 25px 0;
 }
 .demand-panel > p {
-  font-size: 10px;
+  font-size: 11px;
   color: #9baa91;
 }
 .demand-list {
@@ -2764,7 +2764,7 @@ button.btn:hover {
   border-top: 1px solid var(--line);
 }
 .demand-rank {
-  font-size: 21px;
+  font-size: 22px;
   font-family: Georgia, serif;
   color: #b1bda3;
   width: 30px;
@@ -2774,12 +2774,12 @@ button.btn:hover {
   min-width: 0;
 }
 .demand-info h3 {
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: -0.2px;
   margin-bottom: 6px;
 }
 .demand-info p {
-  font-size: 9px;
+  font-size: 10px;
   color: #9fad91;
   margin-bottom: 9px;
 }
@@ -2797,7 +2797,7 @@ button.btn:hover {
   border-radius: 4px;
 }
 .small-text {
-  font-size: 10px;
+  font-size: 11px;
 }
 .activity-list {
   display: flex;
@@ -2813,7 +2813,7 @@ button.btn:hover {
     min-height: 390px;
   }
   .hero h1 {
-    font-size: 48px;
+    font-size: 49px;
   }
   .hero-content {
     padding: 45px;
@@ -2822,32 +2822,32 @@ button.btn:hover {
     height: 205px;
   }
   .card-title {
-    font-size: 17px;
+    font-size: 18px;
   }
   .card-body {
     padding: 23px;
   }
   .card-town {
-    font-size: 9px;
+    font-size: 10px;
   }
   .card-meta {
-    font-size: 10px;
+    font-size: 11px;
   }
   .card-location {
-    font-size: 10px;
+    font-size: 11px;
   }
   .capacity {
-    font-size: 9px;
+    font-size: 10px;
   }
   .free-cost,
   .estimate-cost {
-    font-size: 13px;
+    font-size: 14px;
   }
   .hero p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .section-heading h2 {
-    font-size: 26px;
+    font-size: 27px;
   }
 }
 @media (max-width: 1180px) {
@@ -2880,12 +2880,12 @@ button.btn:hover {
     padding: 32px;
   }
   .hero h1 {
-    font-size: 35px;
+    font-size: 36px;
   }
   .hero-caption {
     right: 15px;
     bottom: 24px;
-    font-size: 9px;
+    font-size: 10px;
     padding: 10px;
   }
   .hero-caption-icon {
@@ -2895,7 +2895,7 @@ button.btn:hover {
     gap: 17px;
   }
   .hero-secondary {
-    font-size: 9px;
+    font-size: 10px;
   }
   .hero {
     min-height: 330px;
@@ -2907,38 +2907,38 @@ button.btn:hover {
     padding: 16px 13px;
   }
   .card-title {
-    font-size: 13px;
+    font-size: 14px;
   }
   .card-meta {
-    font-size: 7px;
+    font-size: 8px;
   }
   .card-location {
-    font-size: 8px;
+    font-size: 9px;
   }
   .card-town {
-    font-size: 7px;
+    font-size: 8px;
   }
   .spaces {
-    font-size: 6.5px;
+    font-size: 7.5px;
   }
   .welcome-strip a {
-    font-size: 8px;
+    font-size: 9px;
   }
   .welcome-strip p {
-    font-size: 8px;
+    font-size: 9px;
   }
   .lower-discover {
     gap: 22px;
     grid-template-columns: 1.3fr 1fr;
   }
   .spaces-section .section-heading h2 {
-    font-size: 18px;
+    font-size: 19px;
   }
   .organize-banner {
     padding: 22px;
   }
   .section-heading h2 {
-    font-size: 20px;
+    font-size: 21px;
   }
   .stats-grid {
     grid-template-columns: 1fr 1fr;
@@ -2951,7 +2951,7 @@ button.btn:hover {
     padding: 20px;
   }
   .detail-title h1 {
-    font-size: 28px;
+    font-size: 29px;
   }
   .circles-grid {
     grid-template-columns: 1fr 1fr;
@@ -2960,7 +2960,7 @@ button.btn:hover {
     gap: 28px;
   }
   .login-story h1 {
-    font-size: 31px;
+    font-size: 32px;
   }
   .login-panel {
     padding: 23px;
@@ -2972,7 +2972,7 @@ button.btn:hover {
     grid-template-columns: 1fr 1fr;
   }
   .profile-welcome h1 {
-    font-size: 29px;
+    font-size: 30px;
   }
 }
 @media (max-width: 950px) {
@@ -2980,7 +2980,7 @@ button.btn:hover {
     width: 195px;
   }
   .brand {
-    font-size: 18px;
+    font-size: 19px;
   }
   .brand small {
     font-size: 5.5px;
@@ -2993,7 +2993,7 @@ button.btn:hover {
     padding-right: 9px;
   }
   .nav-item {
-    font-size: 10px;
+    font-size: 11px;
     gap: 9px;
     padding: 11px;
   }
@@ -3001,7 +3001,7 @@ button.btn:hover {
     width: 17px;
   }
   .nav-heading {
-    font-size: 7px;
+    font-size: 8px;
     letter-spacing: 1.2px;
     margin-left: 11px;
   }
@@ -3031,10 +3031,10 @@ button.btn:hover {
     margin-left: auto;
   }
   .hero h1 {
-    font-size: 32px;
+    font-size: 33px;
   }
   .hero p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .hero-caption {
     display: none;
@@ -3043,7 +3043,7 @@ button.btn:hover {
     padding: 29px;
   }
   .hero-eyebrow {
-    font-size: 6px;
+    font-size: 7px;
     letter-spacing: 1.3px;
   }
   .hero-shade {
@@ -3065,17 +3065,17 @@ button.btn:hover {
     gap: 7px;
   }
   .category-tabs button {
-    font-size: 8px;
+    font-size: 9px;
     padding: 7px 9px;
   }
   .card-title {
-    font-size: 14px;
+    font-size: 15px;
   }
   .card-meta {
-    font-size: 8px;
+    font-size: 9px;
   }
   .card-town {
-    font-size: 8px;
+    font-size: 9px;
   }
   .card-body {
     padding: 17px;
@@ -3094,7 +3094,7 @@ button.btn:hover {
     right: 32px;
   }
   .organize-banner p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .organize-banner .banner-doodle {
     right: 40px;
@@ -3109,7 +3109,7 @@ button.btn:hover {
     grid-column: 1/-1;
   }
   .how-it-works h2 {
-    font-size: 21px;
+    font-size: 22px;
   }
   .footer {
     padding: 20px 23px;
@@ -3124,7 +3124,7 @@ button.btn:hover {
     align-items: flex-start;
   }
   .section-heading .text-link {
-    font-size: 8px;
+    font-size: 9px;
     margin-top: 18px;
   }
   .welcome-strip {
@@ -3134,7 +3134,7 @@ button.btn:hover {
     display: none;
   }
   .welcome-strip p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .detail-layout {
     grid-template-columns: 1fr;
@@ -3148,7 +3148,7 @@ button.btn:hover {
     max-width: 400px;
   }
   .registration-panel h2 {
-    font-size: 27px;
+    font-size: 28px;
   }
   .registration-reward {
     margin-top: 17px;
@@ -3184,17 +3184,17 @@ button.btn:hover {
     padding: 19px;
   }
   .township-card h2 {
-    font-size: 20px;
+    font-size: 21px;
   }
   .township-card p {
-    font-size: 10px;
+    font-size: 11px;
     min-height: 100px;
   }
   .township-stats {
     gap: 8px;
   }
   .page-heading h1 {
-    font-size: 27px;
+    font-size: 28px;
   }
   .page-heading .verified-label {
     display: none;
@@ -3238,7 +3238,7 @@ button.btn:hover {
     width: 45px;
   }
   .rewards-hero h2 {
-    font-size: 28px;
+    font-size: 29px;
   }
   .rewards-hero p br {
     display: none;
@@ -3258,7 +3258,7 @@ button.btn:hover {
     margin-top: 5px;
   }
   .step {
-    font-size: 8px;
+    font-size: 9px;
     gap: 5px;
     flex-direction: column;
     align-items: flex-start;
@@ -3274,7 +3274,7 @@ button.btn:hover {
     gap: 7px;
   }
   .about-page h1 {
-    font-size: 35px;
+    font-size: 36px;
   }
   .about-columns {
     gap: 25px;
@@ -3293,13 +3293,13 @@ button.btn:hover {
     min-width: 110px;
   }
   .results-toolbar {
-    font-size: 10px;
+    font-size: 11px;
   }
   .results-toolbar > div {
     gap: 12px;
   }
   .checkbox-label {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 @media (max-width: 700px) {
@@ -3324,7 +3324,7 @@ button.btn:hover {
     justify-content: space-between;
   }
   .brand {
-    font-size: 21px;
+    font-size: 22px;
   }
   .brand small {
     font-size: 6px;
@@ -3334,12 +3334,12 @@ button.btn:hover {
     padding-right: 16px;
   }
   .nav-item {
-    font-size: 12px;
+    font-size: 13px;
     padding: 13px;
     gap: 13px;
   }
   .nav-heading {
-    font-size: 8px;
+    font-size: 9px;
   }
   .sidebar-points {
     margin: 33px 5px 20px;
@@ -3367,7 +3367,7 @@ button.btn:hover {
     min-width: 0;
   }
   .topbar-title {
-    font-size: 12px;
+    font-size: 13px;
   }
   .header-actions {
     gap: 13px;
@@ -3376,16 +3376,16 @@ button.btn:hover {
     padding: 20px 0;
     gap: 10px;
     min-height: 68px;
-    font-size: 8px;
+    font-size: 9px;
   }
   .context-bar > span {
-    font-size: 7px;
+    font-size: 8px;
   }
   .township-select {
     gap: 3px;
   }
   .township-select select {
-    font-size: 9px;
+    font-size: 10px;
     max-width: 160px;
   }
   .township-select > svg {
@@ -3399,16 +3399,16 @@ button.btn:hover {
     padding: 30px 25px;
   }
   .hero h1 {
-    font-size: 35px;
+    font-size: 36px;
     line-height: 1.25;
     letter-spacing: -1.5px;
   }
   .hero p {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1.9;
   }
   .hero-eyebrow {
-    font-size: 6.5px;
+    font-size: 7.5px;
     margin-bottom: 20px;
   }
   .hero-image {
@@ -3418,11 +3418,11 @@ button.btn:hover {
     background: linear-gradient(90deg, #12332ced, #193d31aa 60%, #16392850);
   }
   .hero-image-label {
-    font-size: 6px;
+    font-size: 7px;
     right: 11px;
   }
   .hero .btn {
-    font-size: 10px;
+    font-size: 11px;
     min-height: 40px;
   }
   .welcome-strip {
@@ -3434,7 +3434,7 @@ button.btn:hover {
     margin-top: 1px;
   }
   .welcome-strip p {
-    font-size: 9px;
+    font-size: 10px;
     line-height: 1.9;
   }
   .welcome-strip p strong {
@@ -3448,22 +3448,22 @@ button.btn:hover {
     margin-bottom: 19px;
   }
   .section-heading h2 {
-    font-size: 21px;
+    font-size: 22px;
     line-height: 1.35;
     max-width: 270px;
     letter-spacing: -0.7px;
   }
   .section-heading .eyebrow {
-    font-size: 6.5px;
+    font-size: 7.5px;
     letter-spacing: 1.2px;
   }
   .section-heading .muted {
-    font-size: 9px;
+    font-size: 10px;
     line-height: 1.8;
     max-width: 260px;
   }
   .section-heading .text-link {
-    font-size: 8px;
+    font-size: 9px;
     gap: 5px;
     white-space: normal;
     align-items: flex-start;
@@ -3489,7 +3489,7 @@ button.btn:hover {
     white-space: nowrap;
     flex-shrink: 0;
     min-height: 34px;
-    font-size: 8px;
+    font-size: 9px;
   }
   .card-grid {
     grid-template-columns: 1fr;
@@ -3502,26 +3502,26 @@ button.btn:hover {
     padding: 22px;
   }
   .card-town {
-    font-size: 9px;
+    font-size: 10px;
   }
   .card-title {
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: -0.5px;
     margin-bottom: 7px;
   }
   .card-location {
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 19px;
   }
   .card-meta {
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 20px;
   }
   .capacity {
-    font-size: 9px;
+    font-size: 10px;
   }
   .spaces {
-    font-size: 9px;
+    font-size: 10px;
   }
   .card-bottom {
     padding-top: 18px;
@@ -3529,23 +3529,23 @@ button.btn:hover {
   }
   .free-cost,
   .estimate-cost {
-    font-size: 14px;
+    font-size: 15px;
   }
   .card-bottom small {
-    font-size: 8px;
+    font-size: 9px;
   }
   .arrow-link {
     width: 35px;
     height: 35px;
   }
   .image-tag {
-    font-size: 8px;
+    font-size: 9px;
     left: 17px;
     top: 17px;
     padding: 6px 9px;
   }
   .sample-tag {
-    font-size: 7px;
+    font-size: 8px;
     left: 17px;
     bottom: 13px;
   }
@@ -3554,7 +3554,7 @@ button.btn:hover {
     gap: 25px;
   }
   .spaces-section .section-heading h2 {
-    font-size: 21px;
+    font-size: 22px;
   }
   .space-row {
     padding: 16px 0;
@@ -3565,20 +3565,20 @@ button.btn:hover {
     height: 70px;
   }
   .space-row h3 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .space-row p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .space-row > div > span {
-    font-size: 7px;
+    font-size: 8px;
   }
   .organize-banner {
     padding: 25px;
     min-height: 245px;
   }
   .organize-banner h2 {
-    font-size: 30px;
+    font-size: 31px;
     margin-top: 18px;
   }
   .organize-banner .round-icon {
@@ -3586,13 +3586,13 @@ button.btn:hover {
     right: 24px;
   }
   .organize-banner .eyebrow {
-    font-size: 6.5px;
+    font-size: 7.5px;
   }
   .organize-banner p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .organize-banner .btn {
-    font-size: 9px;
+    font-size: 10px;
   }
   .organize-banner .banner-doodle {
     right: 10px;
@@ -3603,10 +3603,10 @@ button.btn:hover {
     padding-top: 29px;
   }
   .how-it-works h2 {
-    font-size: 22px;
+    font-size: 23px;
   }
   .how-it-works .eyebrow {
-    font-size: 7px;
+    font-size: 8px;
   }
   .how-it-works > div:not(:first-child) {
     display: grid;
@@ -3616,27 +3616,27 @@ button.btn:hover {
   .how-it-works > div:not(:first-child) > span {
     grid-row: 1/3;
     margin-top: 1px;
-    font-size: 17px;
+    font-size: 18px;
   }
   .how-it-works h3 {
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 5px;
   }
   .how-it-works p {
-    font-size: 10px;
+    font-size: 11px;
     max-width: 270px;
   }
   .footer {
     padding: 21px;
-    font-size: 7px;
+    font-size: 8px;
   }
   .footer > div {
     flex-wrap: wrap;
-    font-size: 7px;
+    font-size: 8px;
     row-gap: 10px;
   }
   .footer a {
-    font-size: 7px;
+    font-size: 8px;
   }
   .page-heading {
     margin-top: 8px;
@@ -3646,17 +3646,17 @@ button.btn:hover {
     gap: 17px;
   }
   .page-heading h1 {
-    font-size: 28px;
+    font-size: 29px;
     margin-bottom: 13px;
   }
   .page-heading .eyebrow {
-    font-size: 7px;
+    font-size: 8px;
   }
   .page-heading p {
-    font-size: 11px;
+    font-size: 12px;
   }
   .page-heading > .btn {
-    font-size: 10px;
+    font-size: 11px;
   }
   .filter-panel {
     padding: 13px;
@@ -3664,13 +3664,13 @@ button.btn:hover {
   }
   .filter-panel select,
   .filter-panel input[type="date"] {
-    font-size: 10px;
+    font-size: 11px;
     width: calc(50% - 5px);
     min-width: 0;
     flex: 1 1 calc(50% - 5px);
   }
   .search-input input:not([type="checkbox"]) {
-    font-size: 11px;
+    font-size: 12px;
   }
   .results-toolbar {
     gap: 10px;
@@ -3683,18 +3683,18 @@ button.btn:hover {
     gap: 12px;
   }
   .results-toolbar > .muted {
-    font-size: 8px;
+    font-size: 9px;
   }
   .notice {
-    font-size: 10px;
+    font-size: 11px;
     padding: 15px;
     gap: 10px;
   }
   .notice strong {
-    font-size: 10px;
+    font-size: 11px;
   }
   .notice p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .facility-visual {
     height: 170px;
@@ -3703,23 +3703,23 @@ button.btn:hover {
     grid-template-columns: 1fr;
   }
   .facility-card .card-title {
-    font-size: 18px;
+    font-size: 19px;
   }
   .facility-description {
-    font-size: 11px;
+    font-size: 12px;
     min-height: 0;
   }
   .facility-source > span {
-    font-size: 9px;
+    font-size: 10px;
   }
   .facility-source small {
-    font-size: 8px;
+    font-size: 9px;
   }
   .facility-tags .badge {
-    font-size: 8px;
+    font-size: 9px;
   }
   .back-link {
-    font-size: 10px;
+    font-size: 11px;
   }
   .detail-cover {
     height: 220px;
@@ -3730,68 +3730,68 @@ button.btn:hover {
     gap: 6px;
   }
   .detail-cover-tags .badge {
-    font-size: 7px;
+    font-size: 8px;
   }
   .detail-layout {
     gap: 29px;
     margin-top: 22px;
   }
   .detail-title h1 {
-    font-size: 31px;
+    font-size: 32px;
   }
   .detail-facts {
     grid-template-columns: 1fr;
     gap: 23px;
   }
   .detail-facts strong {
-    font-size: 12px;
+    font-size: 13px;
   }
   .detail-facts small {
-    font-size: 10px;
+    font-size: 11px;
   }
   .detail-section h2 {
-    font-size: 22px;
+    font-size: 23px;
   }
   .registration-panel {
     padding: 24px;
   }
   .registration-panel > .eyebrow {
-    font-size: 7px;
-  }
-  .registration-panel .capacity {
-    font-size: 11px;
-  }
-  .spots-text {
-    font-size: 10px;
-  }
-  .registration-reward small {
-    font-size: 9px;
-  }
-  .registration-panel .dataset-note {
     font-size: 8px;
   }
-  .detail-section > p {
+  .registration-panel .capacity {
     font-size: 12px;
+  }
+  .spots-text {
+    font-size: 11px;
+  }
+  .registration-reward small {
+    font-size: 10px;
+  }
+  .registration-panel .dataset-note {
+    font-size: 9px;
+  }
+  .detail-section > p {
+    font-size: 13px;
   }
   .modal {
     padding: 28px;
     max-height: 90vh;
   }
   .modal h2 {
-    font-size: 26px;
+    font-size: 27px;
   }
   .modal .btn {
-    font-size: 11px;
+    font-size: 12px;
   }
   .funding-summary {
     padding: 18px;
   }
   .funding-summary > div {
-    font-size: 10px;
+    font-size: 11px;
     gap: 12px;
   }
   .funding-summary > div small {
-    font-size: 8px;
+    font-size: 9px;
   }
   .agenda-row {
     gap: 15px;
@@ -3799,19 +3799,19 @@ button.btn:hover {
     flex-wrap: wrap;
   }
   .agenda-row strong {
-    font-size: 12px;
+    font-size: 13px;
   }
   .agenda-row > .badge {
-    font-size: 7px;
+    font-size: 8px;
   }
   .agenda-row > svg {
     display: none;
   }
   .agenda-row p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .calendar-agenda h2 {
-    font-size: 17px;
+    font-size: 18px;
   }
   .facility-detail-grid {
     gap: 22px;
@@ -3824,7 +3824,7 @@ button.btn:hover {
     gap: 12px;
   }
   .facility-info .notice p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .amenities {
     grid-template-columns: 1fr;
@@ -3840,15 +3840,15 @@ button.btn:hover {
     padding: 23px;
   }
   .township-card h2 {
-    font-size: 25px;
+    font-size: 26px;
   }
   .township-card p {
     min-height: 0;
-    font-size: 11px;
+    font-size: 12px;
   }
   .township-stats {
     gap: 18px;
-    font-size: 9px;
+    font-size: 10px;
   }
   .township-visual {
     height: 210px;
@@ -3860,14 +3860,14 @@ button.btn:hover {
     padding: 25px;
   }
   .circle-card h2 {
-    font-size: 23px;
+    font-size: 24px;
   }
   .circle-card > p {
-    font-size: 12px;
+    font-size: 13px;
     min-height: 0;
   }
   .circle-meta {
-    font-size: 9px;
+    font-size: 10px;
   }
   .circle-meta > span {
     width: auto;
@@ -3875,57 +3875,57 @@ button.btn:hover {
     margin-left: auto;
   }
   .circle-next {
-    font-size: 10px;
+    font-size: 11px;
   }
   .circle-card .btn {
-    font-size: 11px;
+    font-size: 12px;
   }
   .login-layout {
     margin-top: 10px;
     gap: 23px;
   }
   .login-story h1 {
-    font-size: 32px;
+    font-size: 33px;
   }
   .login-story .eyebrow {
-    font-size: 7px;
+    font-size: 8px;
   }
   .login-story > p {
-    font-size: 11px;
+    font-size: 12px;
   }
   .login-panel {
     padding: 25px;
   }
   .login-panel h2 {
-    font-size: 31px;
+    font-size: 32px;
   }
   .demo-account {
     padding: 16px 12px;
   }
   .demo-account strong {
-    font-size: 13px;
+    font-size: 14px;
   }
   .demo-account small {
-    font-size: 8px;
+    font-size: 9px;
   }
   .login-panel .notice p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .profile-welcome {
     gap: 18px;
   }
   .profile-welcome h1 {
-    font-size: 31px;
+    font-size: 32px;
   }
   .profile-welcome p {
-    font-size: 10px;
+    font-size: 11px;
     flex-wrap: wrap;
   }
   .profile-welcome p .badge {
-    font-size: 7px;
+    font-size: 8px;
   }
   .profile-welcome > .button-row .btn {
-    font-size: 10px;
+    font-size: 11px;
   }
   .stats-grid {
     gap: 10px;
@@ -3943,14 +3943,14 @@ button.btn:hover {
     width: 16px;
   }
   .stat p {
-    font-size: 8px;
+    font-size: 9px;
     margin-bottom: 12px;
   }
   .stat strong {
-    font-size: 25px;
+    font-size: 26px;
   }
   .stat small {
-    font-size: 6.5px;
+    font-size: 7.5px;
     line-height: 1.9;
   }
   .tabs {
@@ -3958,7 +3958,7 @@ button.btn:hover {
     margin: 25px 0;
   }
   .tab {
-    font-size: 10px;
+    font-size: 11px;
   }
   .registration-row {
     padding: 17px;
@@ -3970,11 +3970,11 @@ button.btn:hover {
     min-width: 180px;
   }
   .registration-title {
-    font-size: 12px;
+    font-size: 13px;
   }
   .registration-row > span.badge {
     margin-left: 62px;
-    font-size: 8px;
+    font-size: 9px;
   }
   .registration-row > .arrow-link {
     margin-left: auto;
@@ -3982,10 +3982,10 @@ button.btn:hover {
     height: 29px;
   }
   .registration-row p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .registration-row small {
-    font-size: 7px;
+    font-size: 8px;
   }
   .rewards-hero {
     padding: 25px 22px;
@@ -4003,25 +4003,25 @@ button.btn:hover {
     height: 40px;
   }
   .rewards-hero h2 {
-    font-size: 33px;
+    font-size: 34px;
   }
   .rewards-hero .eyebrow {
-    font-size: 6.5px;
+    font-size: 7.5px;
   }
   .rewards-hero p {
-    font-size: 10px;
+    font-size: 11px;
   }
   .points-policy {
-    font-size: 10px;
+    font-size: 11px;
   }
   .about-page {
     margin-top: 12px;
   }
   .about-page h1 {
-    font-size: 34px;
+    font-size: 35px;
   }
   .about-page .lead {
-    font-size: 12px;
+    font-size: 13px;
   }
   .about-columns {
     grid-template-columns: 1fr;
@@ -4035,27 +4035,27 @@ button.btn:hover {
     padding: 22px;
   }
   .wizard .panel h2 {
-    font-size: 23px;
+    font-size: 24px;
   }
   .wizard-heading h1 {
-    font-size: 29px;
+    font-size: 30px;
   }
   .wizard-heading .muted {
-    font-size: 11px;
+    font-size: 12px;
   }
   .stepper {
     gap: 6px;
     margin: 25px 0;
   }
   .step {
-    font-size: 7px;
+    font-size: 8px;
     gap: 7px;
     line-height: 1.5;
   }
   .step > span:first-child {
     width: 27px;
     height: 27px;
-    font-size: 10px;
+    font-size: 11px;
   }
   .step > span:last-child {
     min-height: 20px;
@@ -4065,34 +4065,34 @@ button.btn:hover {
   }
   .funding-option {
     padding: 15px;
-    font-size: 10px;
+    font-size: 11px;
   }
   .funding-option small {
-    font-size: 9px;
+    font-size: 10px;
   }
   .review-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
   .wizard-footer .btn {
-    font-size: 10px;
+    font-size: 11px;
     padding: 11px 13px;
   }
   .manage-card {
     padding: 21px;
   }
   .manage-card-heading h2 {
-    font-size: 20px;
+    font-size: 21px;
   }
   .manage-card-heading {
     gap: 12px;
   }
   .registration-number {
-    font-size: 23px;
+    font-size: 24px;
   }
   .manage-meta {
     gap: 12px;
-    font-size: 9px;
+    font-size: 10px;
   }
   .demand-panel {
     padding: 22px;
@@ -4103,17 +4103,17 @@ button.btn:hover {
     flex-wrap: wrap;
   }
   .demand-rank {
-    font-size: 20px;
+    font-size: 21px;
     width: 23px;
   }
   .demand-info {
     min-width: 200px;
   }
   .demand-info h3 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .demand-info p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .heading-with-action {
     gap: 15px;
@@ -4124,17 +4124,17 @@ button.btn:hover {
     margin: 16px 0;
   }
   .toast {
-    font-size: 11px;
+    font-size: 12px;
     padding: 14px 18px;
     bottom: 18px;
     width: max-content;
     max-width: calc(100% - 30px);
   }
   .boot-state .brand {
-    font-size: 28px;
+    font-size: 29px;
   }
   .about-page .prose {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4167,7 +4167,7 @@ button.btn:hover {
   padding: 0;
 }
 .step > small {
-  font-size: 9px;
+  font-size: 10px;
 }
 .step.done {
   color: #6b9668;
@@ -4183,7 +4183,7 @@ button.btn:hover {
   margin-right: auto;
 }
 .activity-list .manage-card h3 {
-  font-size: 21px;
+  font-size: 22px;
   margin: 15px 0 8px;
 }
 .activity-list .manage-card > .button-row {
@@ -4194,12 +4194,12 @@ button.btn:hover {
 }
 .demand-info > strong {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 7px;
 }
 .demand-info > small {
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   color: #8b9b81;
   margin-bottom: 12px;
 }
@@ -4216,7 +4216,7 @@ button.btn:hover {
   grid-template-columns: 150px 1fr 30px;
   gap: 15px;
   align-items: center;
-  font-size: 10px;
+  font-size: 11px;
   color: #819276;
 }
 .chart-track {
@@ -4232,7 +4232,7 @@ button.btn:hover {
   border-radius: 4px;
 }
 .chart-row > strong {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-align: right;
   color: #829b71;
@@ -4249,7 +4249,7 @@ button.btn:hover {
   background: #eff4eb;
   padding: 2px 5px;
   border-radius: 3px;
-  font-size: 9px;
+  font-size: 10px;
 }
 .manage-card .badge.status-open {
   background: #eef6ea;
@@ -4280,79 +4280,79 @@ button.btn:hover {
   height: 130px;
 }
 .footer {
-  font-size: 9px;
+  font-size: 10px;
 }
 .footer a {
-  font-size: 9px;
+  font-size: 10px;
 }
 .dataset-note {
-  font-size: 10px;
-}
-.card-town {
-  font-size: 10px;
-}
-.card-meta {
-  font-size: 10px;
-}
-.card-location {
-  font-size: 10px;
-}
-.card-bottom small {
-  font-size: 9px;
-}
-.spaces {
-  font-size: 9px;
-}
-.capacity {
-  font-size: 10px;
-}
-.art-caption {
-  font-size: 8px;
-}
-.sample-tag {
-  font-size: 8px;
-}
-.image-tag {
-  font-size: 9px;
-}
-.nav-heading {
-  font-size: 9px;
-}
-.nav-item {
-  font-size: 12px;
-}
-.sidebar-points p {
-  font-size: 10px;
-}
-.sidebar-points a {
   font-size: 11px;
 }
-.category-tabs button {
+.card-town {
+  font-size: 11px;
+}
+.card-meta {
+  font-size: 11px;
+}
+.card-location {
+  font-size: 11px;
+}
+.card-bottom small {
   font-size: 10px;
+}
+.spaces {
+  font-size: 10px;
+}
+.capacity {
+  font-size: 11px;
+}
+.art-caption {
+  font-size: 9px;
+}
+.sample-tag {
+  font-size: 9px;
+}
+.image-tag {
+  font-size: 10px;
+}
+.nav-heading {
+  font-size: 10px;
+}
+.nav-item {
+  font-size: 13px;
+}
+.sidebar-points p {
+  font-size: 11px;
+}
+.sidebar-points a {
+  font-size: 12px;
+}
+.category-tabs button {
+  font-size: 11px;
 }
 .category-tabs {
   gap: 8px;
 }
 .card-title {
-  font-size: 15px;
+  font-size: 16px;
 }
 .hero-image-label {
-  font-size: 8px;
+  font-size: 9px;
 }
 .verified-label {
-  font-size: 11px;
+  font-size: 12px;
 }
 .facility-source small {
-  font-size: 9px;
+  font-size: 10px;
 }
 .facility-description {
-  font-size: 11px;
+  font-size: 12px;
 }
 .facility-tags .badge {
-  font-size: 9px;
+  font-size: 10px;
 }
 .facility-source > span {
-  font-size: 10px;
+  font-size: 11px;
 }
 .category-chart .chart-row span {
   line-height: 1.6;
@@ -4363,113 +4363,113 @@ button.btn:hover {
   .card-location,
   .capacity,
   .spaces {
-    font-size: 9px;
+    font-size: 10px;
   }
   .card-title {
-    font-size: 14px;
+    font-size: 15px;
   }
   .card-bottom small {
-    font-size: 8px;
+    font-size: 9px;
   }
   .category-tabs button {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 @media (max-width: 950px) {
   .footer,
   .footer a {
-    font-size: 8px;
+    font-size: 9px;
   }
   .dataset-note {
-    font-size: 9px;
-  }
-  .nav-item {
     font-size: 10px;
   }
+  .nav-item {
+    font-size: 11px;
+  }
   .category-tabs button {
-    font-size: 9px;
+    font-size: 10px;
   }
   .card-title {
-    font-size: 15px;
+    font-size: 16px;
   }
   .step > small {
-    font-size: 8px;
+    font-size: 9px;
   }
   .chart-row {
     grid-template-columns: 110px 1fr 25px;
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 @media (max-width: 700px) {
   .nav-item {
-    font-size: 12px;
+    font-size: 13px;
   }
   .card-title {
-    font-size: 18px;
+    font-size: 19px;
   }
   .card-town {
-    font-size: 11px;
+    font-size: 12px;
   }
   .card-meta,
   .card-location,
   .spaces,
   .capacity {
-    font-size: 11px;
+    font-size: 12px;
   }
   .card-bottom small {
-    font-size: 10px;
+    font-size: 11px;
   }
   .category-tabs button {
-    font-size: 10px;
+    font-size: 11px;
   }
   .category-tabs {
     overflow: auto;
   }
   .image-tag {
-    font-size: 10px;
+    font-size: 11px;
   }
   .sample-tag {
-    font-size: 9px;
+    font-size: 10px;
   }
   .art-caption,
   .hero-image-label {
-    font-size: 8px;
+    font-size: 9px;
   }
   .dataset-note {
-    font-size: 10px;
+    font-size: 11px;
   }
   .footer,
   .footer a {
-    font-size: 9px;
+    font-size: 10px;
     line-height: 1.8;
   }
   .step > small {
-    font-size: 8px;
+    font-size: 9px;
   }
   .wizard.panel {
     padding: 22px;
   }
   .workflow-heading h1 {
-    font-size: 27px;
+    font-size: 28px;
   }
   .chart-row {
     grid-template-columns: 110px 1fr 20px;
-    font-size: 9px;
+    font-size: 10px;
   }
   .category-insights .section-heading {
     flex-direction: column;
   }
   .demand-info > strong {
-    font-size: 12px;
+    font-size: 13px;
   }
   .demand-info > small {
-    font-size: 10px;
+    font-size: 11px;
   }
   .circle-card > .card-town {
-    font-size: 10px;
+    font-size: 11px;
   }
   .badge {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 /* Maintain readable contrast for functional text and primary controls. */

@@ -70,6 +70,10 @@ function Layout() {
     [query, setQuery] = useState("");
   const navigate = useNavigate(),
     location = useLocation();
+  const profileTab =
+    location.pathname === "/profile"
+      ? new URLSearchParams(location.search).get("tab") || "overview"
+      : null;
   const points = data.points
     .filter((p) => p.user_id === data.user?.id)
     .reduce((s, p) => s + p.points_change, 0);
@@ -134,30 +138,39 @@ function Layout() {
           </nav>
           <p className="nav-heading second">MY COMMUNITY</p>
           <nav>
-            <NavLink
+            <Link
               to="/profile"
-              className="nav-item"
+              className={
+                "nav-item " + (profileTab === "overview" ? "active" : "")
+              }
+              aria-current={profileTab === "overview" ? "page" : undefined}
               onClick={() => setMobile(false)}
             >
               <LayoutDashboard size={19} />
               My dashboard
-            </NavLink>
-            <NavLink
+            </Link>
+            <Link
               to="/profile?tab=registrations"
-              className="nav-item"
+              className={
+                "nav-item " + (profileTab === "registrations" ? "active" : "")
+              }
+              aria-current={profileTab === "registrations" ? "page" : undefined}
               onClick={() => setMobile(false)}
             >
               <ArrowDownToLine size={19} />
               My registrations
-            </NavLink>
-            <NavLink
+            </Link>
+            <Link
               to="/profile?tab=rewards"
-              className="nav-item"
+              className={
+                "nav-item " + (profileTab === "rewards" ? "active" : "")
+              }
+              aria-current={profileTab === "rewards" ? "page" : undefined}
               onClick={() => setMobile(false)}
             >
               <Gift size={19} />
               RuangPoints
-            </NavLink>
+            </Link>
             <NavLink
               to="/organizer"
               className="nav-item"

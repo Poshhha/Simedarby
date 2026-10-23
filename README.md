@@ -15,7 +15,7 @@ npm ci
 npm run dev
 ```
 
-The development frontend uses Vite on port **5173** and proxies `/api` to Express on port **3001**. Open the frontend using your development host's access method. No credentials are required for the prepared demo identities.
+The development frontend is at **http://127.0.0.1:5173** and proxies `/api` to Express on port **3001**. Both development listeners bind only to localhost. Run these commands on your own computer to open that local address there; the cloud workspace's localhost is separate from your computer. No credentials are required for the prepared demo identities.
 
 For a single-server build:
 
@@ -36,8 +36,11 @@ Express serves both the built frontend and API on port **3001**, or the `PORT` s
 | `npm test` | Run backend integration tests against isolated SQLite fixtures. |
 | `npm run test:e2e` | Run the Playwright browser suite with its configured Chromium installation. |
 | `npm start` | Serve the built app and API. |
+| `npm run screenshots` | Build and capture eight sample pictures from an isolated localhost demonstration database. |
 
 Browser tests require Chromium. Use the system Chromium supported by the Playwright configuration, or install the configured browser with Playwright before running them. Test fixtures must not use your demo database.
+
+Screenshot capture uses the same Chromium installation and writes to `artifacts/sample-pictures/` by default. Set `SCREENSHOT_DIR` to choose another output directory. The PNGs and gallery show actual local application states with fictional sample records. Capture creates a temporary SQLite database and leaves your existing data unchanged. No public service is created.
 
 ## Demonstration access and security scope
 
@@ -61,6 +64,7 @@ The shared SQLite database defaults to `.data/ruangkita.sqlite`. It is created a
 | `DEMO_ACCESS` | Must be `true` to explicitly enable this public demo in production mode. |
 | `SECURE_COOKIES` | Set `true` when served behind HTTPS. |
 | `APP_ORIGIN` | Optional comma-separated permitted application origins for the mutation origin checks. |
+| `RUANGKITA_HOST` | Optional binding override. Defaults to `127.0.0.1` for local use and `0.0.0.0` only in production mode. |
 
 Never commit `.env` values, the generated database, session records or real personal data. To begin a separate clean rehearsal without deleting existing work, stop your server and start it with a different `DATABASE_PATH`.
 

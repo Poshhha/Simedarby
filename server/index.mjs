@@ -11,9 +11,12 @@ if (
 }
 const { app, close } = createApp();
 const port = Number(process.env.PORT || 3001);
-const server = app.listen(port, "0.0.0.0", () =>
+const bindHost =
+  process.env.RUANGKITA_HOST ||
+  (process.env.NODE_ENV === "production" ? "0.0.0.0" : "127.0.0.1");
+const server = app.listen(port, bindHost, () =>
   console.log(
-    `RUANGKITA demo API listening on port ${port}; SQLite persistence enabled. Prepared identities are for demonstration only.`,
+    `RUANGKITA demo API listening on ${bindHost}:${port}; SQLite persistence enabled. Prepared identities are for demonstration only.`,
   ),
 );
 const shutdown = () =>

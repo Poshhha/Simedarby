@@ -7,11 +7,12 @@
     "node": ">=24"
   },
   "scripts": {
-    "dev": "concurrently -k -n api,web \"node --watch server/index.mjs\" \"vite --host 0.0.0.0\"",
+    "dev": "concurrently -k -n api,web \"node --watch server/index.mjs\" \"vite --host 127.0.0.1 --strictPort\"",
     "build": "tsc --noEmit && vite build",
     "start": "node server/index.mjs",
     "test": "node --test tests/backend.test.mjs",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "screenshots": "npm run build && node scripts/capture-samples.mjs"
   },
   "dependencies": {
     "express": "^5.1.0",
