@@ -318,6 +318,30 @@ try {
     "The dashboard reflects actual fixture actions: one completed event, one verified attendee and a pending proposal with two unique supporters.",
   );
 
+  await visitor.goto(base + "/townships");
+  await expect(visitor.locator(".township-card")).toHaveCount(6);
+  await capture(
+    visitor,
+    "09-township-explorer.png",
+    "Explore the six townships",
+    "The township explorer links documented facilities and community activity ideas across six real townships. Park visuals are illustrative.",
+  );
+
+  await visitor.goto(base + "/activities");
+  await expect(
+    visitor.getByRole("heading", {
+      name: "Find your people. Do your thing.",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(visitor.locator(".activity-card")).toHaveCount(3);
+  await capture(
+    visitor,
+    "10-activity-explorer.png",
+    "Find an activity together",
+    "The searchable activity explorer shows three open sample events after the completed badminton fixture closes. Filters, capacity and cost labels reflect stored demonstration records.",
+  );
+
   expect(runtimeErrors, "Browser runtime errors during sample capture").toEqual(
     [],
   );
@@ -331,11 +355,11 @@ try {
     "Actual screenshots of RUANGKITA running only on localhost with an isolated temporary SQLite database. No public hosting deployment was created. Accounts, participation, payments, venue confirmations and rewards are demonstrations. The existing workspace database was not changed.";
   await writeFile(
     join(output, "README.md"),
-    `# RUANGKITA sample pictures\n\n${note}\n\nCaptured: ${recordedAt}.\n\n${captures.map((item, index) => `${index + 1}. [${item.title}](${item.filename}) — ${item.description}`).join("\n")}\n\nAll eight captures completed with no browser runtime errors. The isolated fixture database and server are removed when capture ends.\n`,
+    `# RUANGKITA sample pictures\n\n${note}\n\nCaptured: ${recordedAt}.\n\n${captures.map((item, index) => `${index + 1}. [${item.title}](${item.filename}) — ${item.description}`).join("\n")}\n\nAll ${captures.length} captures completed with no browser runtime errors. The isolated fixture database and server are removed when capture ends.\n`,
   );
   await writeFile(
     join(output, "index.html"),
-    `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RUANGKITA · Local sample pictures</title><style>body{margin:0;background:#f5f7f5;color:#14283f;font:15px/1.7 system-ui,sans-serif}main{max-width:1160px;margin:auto;padding:40px 24px}h1{font-size:36px;line-height:1.2;letter-spacing:-1px}header p{max-width:900px;color:#52645a}small{color:#6a786f}section{margin:38px 0;background:white;border:1px solid #dce4dc;border-radius:12px;padding:24px}h2{margin:0 0 8px;font-size:23px}section p{color:#617265}a{color:#9f4328}img{display:block;max-width:100%;height:auto;margin:20px auto 0;border:1px solid #e4e9e3;border-radius:8px}img.mobile{max-width:390px}@media(max-width:600px){main{padding:24px 14px}h1{font-size:28px}section{padding:16px}h2{font-size:20px}}</style></head><body><main><header><small>LOCALHOST ONLY · WORKING PROTOTYPE CAPTURES</small><h1>RUANGKITA sample pictures</h1><p>${note}</p><small>Captured ${recordedAt}. All eight captures completed without browser runtime errors.</small></header>${captures.map((item, index) => `<section><h2>${String(index + 1).padStart(2, "0")} · ${item.title}</h2><p>${item.description}</p><a href="${item.filename}" download>Download original PNG</a><img class="${item.width < 700 ? "mobile" : ""}" src="${item.filename}" alt="${item.title}" loading="lazy"></section>`).join("")}</main></body></html>`,
+    `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RUANGKITA · Local sample pictures</title><style>body{margin:0;background:#f5f7f5;color:#14283f;font:15px/1.7 system-ui,sans-serif}main{max-width:1160px;margin:auto;padding:40px 24px}h1{font-size:36px;line-height:1.2;letter-spacing:-1px}header p{max-width:900px;color:#52645a}small{color:#6a786f}section{margin:38px 0;background:white;border:1px solid #dce4dc;border-radius:12px;padding:24px}h2{margin:0 0 8px;font-size:23px}section p{color:#617265}a{color:#9f4328}img{display:block;max-width:100%;height:auto;margin:20px auto 0;border:1px solid #e4e9e3;border-radius:8px}img.mobile{max-width:390px}@media(max-width:600px){main{padding:24px 14px}h1{font-size:28px}section{padding:16px}h2{font-size:20px}}</style></head><body><main><header><small>LOCALHOST ONLY · WORKING PROTOTYPE CAPTURES</small><h1>RUANGKITA sample pictures</h1><p>${note}</p><small>Captured ${recordedAt}. All ${captures.length} captures completed without browser runtime errors.</small></header>${captures.map((item, index) => `<section><h2>${String(index + 1).padStart(2, "0")} · ${item.title}</h2><p>${item.description}</p><a href="${item.filename}" download>Download original PNG</a><img class="${item.width < 700 ? "mobile" : ""}" src="${item.filename}" alt="${item.title}" loading="lazy"></section>`).join("")}</main></body></html>`,
   );
   console.log(
     `Captured ${captures.length} actual localhost screenshots in ${output}.`,

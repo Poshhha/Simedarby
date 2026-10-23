@@ -36,9 +36,11 @@ Express serves both the built frontend and API on port **3001**, or the `PORT` s
 | `npm test` | Run backend integration tests against isolated SQLite fixtures. |
 | `npm run test:e2e` | Run the Playwright browser suite with its configured Chromium installation. |
 | `npm start` | Serve the built app and API. |
-| `npm run screenshots` | Build and capture eight sample pictures from an isolated localhost demonstration database. |
+| `npm run screenshots` | Build and capture ten sample pictures from an isolated localhost demonstration database. |
 
 Browser tests require Chromium. Use the system Chromium supported by the Playwright configuration, or install the configured browser with Playwright before running them. Test fixtures must not use your demo database.
+
+Ten individual sample PNGs are included in [`docs/screenshots`](docs/screenshots/README.md). Pull the repository to get them directly into your local project folder; no ZIP download is needed.
 
 Screenshot capture uses the same Chromium installation and writes to `artifacts/sample-pictures/` by default. Set `SCREENSHOT_DIR` to choose another output directory. The PNGs and gallery show actual local application states with fictional sample records. Capture creates a temporary SQLite database and leaves your existing data unchanged. No public service is created.
 
